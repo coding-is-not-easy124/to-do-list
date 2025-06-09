@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>To-Do List</title>
+  <link rel="stylesheet" href="to-do-list.css" />
+</head>
+<body>
+  <div class="todo-container">
+    <header class="todo-header">
+      <h1>To-Do List</h1>
+      <input type="text" class="search-input" placeholder="Search tasks..." />
+    </header>
+
+    <div class="error-message" style="display:none;">
+      <span>Please fill in all fields</span>
+      <button class="close-error">&times;</button>
+    </div>
+
+    <form class="task-form" novalidate>
+      <input type="text" class="input-task" placeholder="Add your task here" />
+      <input type="date" class="input-date" />
+      <input type="time" class="input-time" />
+      <button type="submit" class="btn-add-task">Add Task</button>
+    </form>
+
+    <section class="tasks-section">
+      <h2 class="section-header">Due Tasks</h2>
+      <div class="tasks-area due-tasks"></div>
+
+      <h2 class="section-header">Upcoming Tasks</h2>
+      <div class="tasks-area upcoming-tasks"></div>
+    </section>
+  </div>
+
+  <script src="to-do-list.js"></script>
+</body>
+</html>
