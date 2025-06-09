@@ -165,7 +165,7 @@ function handleAddTask(event) {
     return;
   }
 
-    tasks.push({
+  tasks.push({
     id: Date.now(),
     task: taskVal,
     date: dateVal,

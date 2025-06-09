@@ -1,4 +1,3 @@
-/* Global */
 * {
   margin: 0;
   padding: 0;
@@ -21,7 +20,6 @@ body {
   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
 
-/* Header */
 .todo-header {
   background-color: #3f51b5;
   color: white;
@@ -45,7 +43,6 @@ body {
   width: 200px;
 }
 
-/* Error Message */
 .error-message {
   background-color: #ffecb3;
   color: #795548;
@@ -71,7 +68,6 @@ body {
   color: #795548;
 }
 
-/* Task Form */
 .task-form {
   display: flex;
   gap: 1rem;
@@ -109,7 +105,6 @@ body {
   background-color: #388e3c;
 }
 
-/* Section headers */
 .section-header {
   margin-top: 1.5rem;
   margin-bottom: 0.75rem;
@@ -118,7 +113,6 @@ body {
   font-size: 1.4rem;
 }
 
-/* Tasks container */
 .tasks-area {
   background-color: #e8f5e9;
   padding: 1rem;
@@ -126,19 +120,16 @@ body {
   min-height: 50px;
 }
 
-/* Task day group */
 .task-day-group {
   margin-bottom: 1rem;
 }
 
-/* Date heading */
 .task-day-group h3 {
   font-weight: 600;
   margin-bottom: 0.6rem;
   color: #333;
 }
 
-/* Task items */
 .task-item {
   display: flex;
   justify-content: space-between;
@@ -206,7 +197,6 @@ body {
   background-color: #d32f2f;
 }
 
-/* Empty State */
 .empty-state {
   background-color: #ffecb3;
   color: #795548;
